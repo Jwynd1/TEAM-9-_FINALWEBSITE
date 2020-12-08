@@ -1,0 +1,43 @@
+/* CSS Document */
+
+header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E0FFFF;
+}
+
+.container {
+	background-color: #E0FFFF;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+.left_article {
+	background-color: #E0FFFF;
+	width: 75%;
+	float: left;
+	font-family: "Source Sans Pro";
+	color: #343434;
+	padding-bottom: 15px;
+}
+
+.right_article {
+	background-color: #E0FFFF;
+	width: 75%;
+	float: right;
+	font-family: "Source Sans Pro";
+	color: #343434;
+	padding-bottom: 15px;
+}
+
+body{
+	background-color: #E0FFFF;
+}

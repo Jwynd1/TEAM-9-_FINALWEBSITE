@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>contact_form</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    </head>
+  <header>
+    <a href="index.html"><img class = "icon" src= "images/logo.png" alt="Logo"></a>
+</head>
+
+<body>
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="First Name">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Last Name">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="email_field" name="email_field" placeholder="Your email address">
+
+    <label for="message">Messge</label>
+    <textarea id="message_form" name="message" placeholder="What do you want to tell us about?" style="height:200px"></textarea>
+
+    <input type="button" value="Submit" class="submit" id="submit_button">&nbsp;<span id="submit_confirmation">
+
+  </form>
+</div>
+
+</body>
+	<script src="contact_form.js"></script>
+</html>
